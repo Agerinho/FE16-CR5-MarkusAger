@@ -1,0 +1,62 @@
+main {
+    font-family: cursive
+}
+
+.hero {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 1400px) {
+    .col {
+        padding: 0 4rem;
+    }
+}
+
+.card-body {
+    padding: 0 0 1rem 0;
+}
+
+.card-title {
+    background-color: var(--bs-gray-800);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.card-body div {
+    padding: 0 1rem;
+}
+
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .card-img-top {
+        display: block;
+    }
+}
+
+.vaccBtn {
+    background-color: green;
+    cursor: pointer;
+    border-radius: 20px !important;
+    font-size: 1.5rem;
+}
+
+.notVacc {
+    background-color: red;
+}
+
+.socials {
+    background-color: skyblue;
+}
+
+footer p {
+    background-color: steelblue;
+}
