@@ -69,7 +69,7 @@ var Dog = /** @class */ (function (_super) {
 }(Animal));
 var animal1 = new Animal("Cheeks", "female", "small", 1, true, "https://media.dehner.de/new_ads_main/dehner-polyresinhamster/6706055_WE_FS_001_DehnerHamster.jpg");
 var animal2 = new Animal("Bacon", "female", "medium", 2, false, "https://images.gutefrage.net/media/fragen/bilder/baby--bzw-minischweine-besuchen/0_full.jpg");
-var cat1 = new Cat("Kili", "male", "small", 6, true, "/img/kili.jpg", "Unknown", "white", "https://en.wikipedia.org/wiki/Persian_cat");
+var cat1 = new Cat("Kili", "male", "small", 6, true, "img/kili.jpg", "Unknown", "white", "https://en.wikipedia.org/wiki/Persian_cat");
 var cat2 = new Cat("Fluffi", "male", "small", 4, true, "https://i0.wp.com/www.justagric.com/wp-content/uploads/2022/01/how-much-do-persian-cats-weigh.jpg", "Persian Cat", "white", "https://en.wikipedia.org/wiki/Persian_cat");
 var dog1 = new Dog("Gerhard", "male", "large", 7, true, "https://cf.ltkcdn.net/dogs/images/orig/284637-1600x1066-german-shepherd-characteristics.jpg", "German Shepherd", true);
 var dog2 = new Dog("Baraby", "male", "medium", 10, false, "https://cdn.britannica.com/05/30105-004-644BE36D.jpg", "Bulldog", true);
@@ -137,4 +137,6 @@ var sortAnimals = function () {
         });
     }
     displayAnimals();
+    setVacc();
+    changeVacc();
 };
